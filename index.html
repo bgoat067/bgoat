@@ -42,6 +42,12 @@
             color: white;
         }
 
+        .text li.fa {
+            display: flex;
+            margin: 0;
+            color: #4c3fb5;
+        }
+
         .img-discord {
             width: 33px;
             margin-top: -16px;
@@ -54,6 +60,14 @@
         }
 
         @media only screen and (min-width: 320px) {
+            .text h2 {
+                font-size: 23px !important;
+            }
+
+            .text li.fa p {
+                font-size: 18px;
+            }
+
             .footer {
                 margin-top: -0.5rem;
                 padding-top: 4.5rem;
@@ -98,6 +112,16 @@
         }
 
         @media only screen and (min-width: 375px) {
+            .text h2 {
+                font-family: serif;
+                color: #3f51b5;
+                font-size: 25px !important;
+            }
+
+            .text li.fa p {
+                font-size: 18px;
+            }
+
             .padding-class {
                 padding-left: 0px;
                 padding: 2px 0px 0px 5px;
@@ -131,6 +155,16 @@
         }
 
         @media only screen and (min-width: 425px) {
+            .text h2 {
+                font-family: serif;
+                color: #3f51b5;
+                font-size: 25px !important;
+            }
+
+            .text li.fa p {
+                font-size: 18px;
+            }
+
             .padding-class {
                 padding-left: 0px;
                 padding: 2px 0px 0px 5px;
@@ -343,8 +377,36 @@
             padding-bottom: 10px !important;
         }
 
-        a.sociali:hover,
-        a.sociali:focus {}
+
+        li.fa.fa-angle-right {
+            display: block;
+            margin-top: 5px;
+            margin-left: -16px;
+            margin-bottom: 21px;
+            font-family: 'FontAwesome';
+        }
+
+        li.fa.fa-angle-right strong {
+            margin-left: 8px;
+            position: absolute;
+            line-height: 18px;
+        }
+
+        .text li.fa {
+            display: flex;
+            margin: 0;
+            color: #3f51b5;
+        }
+
+        .text li.fa p {
+            margin-bottom: 11px;
+            margin-left: 6px;
+        }
+
+        .text h2 {
+            font-family: serif;
+            color: #3f51b5;
+        }
     </style>
     <!-- END Custom CSS-->
 </head>
@@ -747,10 +809,10 @@
                                 </div>
                                 <div class="col-lg-7 col-md-12 animated" data-animation="fadeInRightShorter"
                                     data-animation-delay="0.6s">
-                                    <ul class="token-sale-info"
-                                        style="list-style-type: disclosure-closed;color: #d3fff9;">
+                                    <ul class="token-sale-info" style="color: #d3fff9;">
 
-                                        <li><strong class="white">Create a MetaMask Wallet</strong></li>
+                                        <li class="fa fa-angle-right" aria-hidden="true"><strong class="white">Create a
+                                                MetaMask Wallet</strong></li>
 
                                         $BGOAT token is available on the Binance Smart Chain (BSC). MetaMask is the
                                         market leader in BSC (Binance Smart Chain) wallets. On Google Chrome, visit <a
@@ -762,7 +824,9 @@
                                         or <a target="_blank"
                                             href="https://play.google.com/store/apps/details?id=io.metamask&hl=en_US&ref=producthunt&_branch_match_id=893725239831918799">Android</a>. -->
 
-                                        <li><strong class="white">Add Binance Smart Chain (BSC) to your
+                                        <li class="fa fa-angle-right" aria-hidden="true"><strong class="white">Add
+                                                Binance
+                                                Smart Chain (BSC) to your
                                                 MetaMask</strong></li>
 
                                         Before you can use MetaMask with Binance Smart Chain (BSC), you must add the
@@ -775,7 +839,9 @@
                                         </a> to accomplish this.
 
 
-                                        <li><strong class="white">Transfer $BNB from Binance to MetaMask</strong></li>
+                                        <li class="fa fa-angle-right" aria-hidden="true"><strong class="white">Transfer
+                                                $BNB
+                                                from Binance to MetaMask</strong></li>
                                         We suggest transferring $BNB from your <a target="_blank"
                                             href="https://www.binance.com/en">Binance</a> account to MetaMask. <a
                                             target="_blank"
@@ -786,12 +852,15 @@
                                         </a> how to transfer your $BNB to MetaMask.
 
 
-                                        <li><strong class="white">Almost finished! Visit <a target="_blank"
+                                        <li class="fa fa-angle-right" aria-hidden="true"><strong class="white">Almost
+                                                finished! Visit <a target="_blank"
                                                     href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xF8Dfc628610aFBdd567C3b6BB2C0F7ac4916942A">PancakeSwap</a>
                                             </strong></li>
                                         You can currently buy $BGOAT on PancakeSwap.
 
-                                        <li><strong class="white">Swap $BNB for $BGOAT</strong></li>
+                                        <li class="fa fa-angle-right" aria-hidden="true"><strong class="white">Swap $BNB
+                                                for
+                                                $BGOAT</strong></li>
 
                                         Enter the amount of $BNB you would like to swap for $BGOAT. Click Connect Wallet
                                         then Swap. If you receive an error message, click the settings icon on the
@@ -1005,21 +1074,45 @@
                                 </p>
                             </div>
 
-                            <div class="content-area row col-12 phase">
+                            <div class="content-area row col-12">
 
                                 <div class="col-md-6 col-sm-12" class="animated" data-animation="fadeInUpShorter"
                                     data-animation-delay="0.1s">
                                     <div class="text">
                                         <h2>Phase 1 - Launch</h2>
                                         <ul class="list list-check">
-                                            <li>1,000 Holders</li>
-                                            <li>Website Launch</li>
-                                            <li>CoinGecko Listing</li>
-                                            <li>2,000 Telegram Members</li>
-                                            <li>Community Marketing Fund</li>
-                                            <li>Marketing Campaign</li>
-                                            <li>CoinMarketCap Listing</li>
-                                            <li>5,000 Holders</li>
+                                            <li class="fa fa-check" aria-hidden="true">
+                                                <p>1,000 Holders</p>
+                                            </li>
+
+                                            <li class="fa fa-check" aria-hidden="true">
+                                                <p>Website Launch</p>
+
+                                            </li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>CoinGecko Listing</p>
+                                            </li>
+
+                                            <li class="fa fa-check" aria-hidden="true">
+                                                <p>2,000 Telegram Members</p>
+                                            </li>
+
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>Community Marketing Fund</p>
+                                            </li>
+
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>Marketing Campaign</p>
+                                            </li>
+
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>CoinMarketCap Listing</p>
+                                            </li>
+
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>5,000 Holders</p>
+                                            </li>
+
                                         </ul>
                                     </div>
                                     <!-- /.text -->
@@ -1029,11 +1122,37 @@
                                     <div class="text">
                                         <h2>Phase 2 - Growth</h2>
                                         <ul class="list list-check">
-                                            <li>5,000 Telegram Members</li>
-                                            <li>Website Redesign</li>
-                                            <li>10,000 Holders</li>
-                                            <li>10,000 Telegram Members</li>
-                                            <li>20,000 Holders</li>
+
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    5,000 Telegram Members
+                                                </p>
+                                            </li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    Website Redesign
+                                                </p>
+                                            </li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    10,000 Holders
+                                                </p>
+                                            </li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    10,000 Telegram Members
+                                                </p>
+                                            </li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    20,000 Holders
+                                                </p>
+                                            </li>
+                                            <!-- <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+
+                                                </p>
+                                            </li> -->
                                         </ul>
                                     </div>
                                     <!-- /.text -->
@@ -1043,10 +1162,26 @@
                                     <div class="text">
                                         <h2>Phase 3 - Expansion</h2>
                                         <ul class="list list-check">
-                                            <li>BGOAT Swap (Decentralize Exchange)</li>
-                                            <li>Initial CEX Listings (Hotbit, Bilaxy, CoinTiger)</li>
-                                            <li>15,000 Telegram Members</li>
-                                            <li>30,000 Holders</li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    BGOAT Swap (Decentralize Exchange)
+                                                </p>
+                                            </li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    Initial CEX Listings (Hotbit, Bilaxy, CoinTiger)
+                                                </p>
+                                            </li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    15,000 Telegram Members
+                                                </p>
+                                            </li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    30,000 Holders
+                                                </p>
+                                            </li>
                                         </ul>
                                     </div>
                                     <!-- /.text -->
@@ -1056,12 +1191,36 @@
                                     <div class="text">
                                         <h2>Phase 4 - Utility</h2>
                                         <ul class="list list-check">
-                                            <li>BGOAT Paw Print (Wallet and Passive Income Tracker)</li>
-                                            <li>BGOAT sWag (Merchandise Store)</li>
-                                            <li>3 More CEX Listings</li>
-                                            <li>50,000 Telegram Members</li>
-                                            <li>100,000 Holders</li>
-                                            <li>Influencer Marketing Partnerships</li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    BGOAT Paw Print (Wallet and Passive Income Tracker)
+                                                </p>
+                                            </li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    BGOAT sWag (Merchandise Store)
+                                                </p>
+                                            </li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    3 More CEX Listings
+                                                </p>
+                                            </li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    50,000 Telegram Members
+                                                </p>
+                                            </li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    100,000 Holders
+                                                </p>
+                                            </li>
+                                            <li class="fa fa-arrow-right" aria-hidden="true">
+                                                <p>
+                                                    Influencer Marketing Partnerships
+                                                </p>
+                                            </li>
                                         </ul>
                                     </div>
                                     <!-- /.text -->
