@@ -38,6 +38,33 @@
     <!-- BEGIN Custom CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <style>
+        .img-frame {
+            text-align: center;
+        }
+
+        .frame-set .img-frame img {}
+
+        .frame-set .img-content p {
+            color: white;
+        }
+
+        .frame-set .img-content h3 {
+            color: white;
+        }
+
+        .image-content h3 {
+            color: white;
+            font-family: serif;
+            padding-top: 5px;
+            text-align: center;
+        }
+
+        .image-content2 h3 {
+            color: white;
+            font-family: serif;
+            text-align: center;
+        }
+
         li a {
             color: white;
         }
@@ -60,6 +87,17 @@
         }
 
         @media only screen and (min-width: 320px) {
+            img.img1 {
+                margin-left: -38px;
+                margin-top: -145px;
+                margin-bottom: -69px;
+                width: 377px;
+            }
+
+            .image-content {
+                text-align: center;
+            }
+
             .text h2 {
                 font-size: 23px !important;
             }
@@ -112,6 +150,13 @@
         }
 
         @media only screen and (min-width: 375px) {
+            img.img1 {
+                margin-left: -10px;
+                margin-top: -145px;
+                margin-bottom: -69px;
+                width: 380px;
+            }
+
             .text h2 {
                 font-family: serif;
                 color: #3f51b5;
@@ -198,6 +243,32 @@
         }
 
         @media only screen and (min-width: 768px) {
+            img.img1 {
+                margin-left: -98px;
+                margin-top: -111px;
+                margin-bottom: -69px;
+                width: 380px;
+            }
+
+            img.img3 {
+                width: 266px;
+                margin-left: -45px;
+                margin-top: -34px;
+            }
+
+            .image-content2 {
+                color: white;
+                margin-top: 41px;
+            }
+
+            .image-content p {
+                text-align: justify;
+            }
+
+            .image-content2 p {
+                text-align: justify;
+            }
+
             .footer {
                 margin-top: 6.5rem;
                 padding-top: 18.5rem;
@@ -1027,14 +1098,14 @@
                 <!-- tokenomics end -->
 
                 <!-- Raving -->
-                <section id="problem-solution" class="problem-solution section-pro section-padding bg-gradient" <div
+                <!-- <section id="problem-solution" class="problem-solution section-pro section-padding bg-gradient" <div
                     class="container-fluid">
                     <div class="container">
-                        <!-- <div class="heading text-center">
+                        <div class="heading text-center">
                             <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
                                 <h2 class="title text-white">Whitepaper</h2>
                             </div>
-                        </div> -->
+                        </div>
                         <div class="row">
                             <div class="col-lg-5 col-md-12">
                                 <div class="whitepaper-img">
@@ -1051,6 +1122,61 @@
                                     <p class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">We
                                         are certain that if he could, Bitcoin, one of Mark Zuckerberg's two goats would
                                         certainly endorse $BGOAT. 😂</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section> -->
+
+                <section data-animation="fadeInUpShorter" data-animation-delay="0.3s" id="problem-solution" class="problem-solution section-pro section-padding bg-gradient animated">
+                    <div class="container-fluid">
+                        <div class="container">
+                            <!-- <div class="heading text-center">
+                        <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
+                            <h2 class="title text-white">Whitepaper</h2>
+                        </div>
+                    </div> -->
+                            <div class="row frame-set" style="justify-content: space-around;">
+                                <div class="col-md-3">
+                                    <div class="img-frame">
+                                        <img src="./theme-assets/images-3d-graphics/1.png" class="img1" alt="">
+                                    </div>
+                                    <div class="image-content">
+                                        <h3>Zuckerberg</h3>
+                                        <p>We are certain that if he could, Bitcoin, one of Mark Zuckerberg's two goats
+                                            would certainly endorse $BGOAT</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-md-3">
+                                <div class="img-frame">
+                                    <img src="./theme-assets/images-3d-graphics/2.png" alt="">
+                                </div>
+                                <div class="image-content">
+                                    <h3>Hello</h3>
+                                    <p>sdf sdfg dfs gd fs gd sfg sd fg fgggggggggg fg f gfffffffff fgfg</p>
+                                </div>
+                            </div> -->
+
+                                <div class="col-md-3">
+                                    <div class="img-frame">
+                                        <img src="./theme-assets/images-3d-graphics/3.png" alt="" style="width: 182px;">
+                                    </div>
+                                    <div class="image-content2">
+                                        <h3>Mark Zuckerberg</h3>
+                                        <p>ZuckGOAT ($GOAT) is a community-focused, decentralized cryptocurrency with
+                                            instant rewards for holders. Join the moon mission. 🐐</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="img-frame">
+                                        <img src="./theme-assets/images-3d-graphics/4.png" class="img3" alt=""
+                                            style="width: 266px;">
+                                    </div>
+                                    <div class="image-content">
+                                        <h3>BGOAT Charity comming soon</h3>
+                                    </div>
                                 </div>
                             </div>
                         </div>
