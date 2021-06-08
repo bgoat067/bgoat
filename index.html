@@ -371,10 +371,14 @@
                                 <li>Transfer $BNB from Binance to MetaMask</li>
                                 <p>We suggest transferring $BNB from your <a target="_blank"
                                         href="https://www.binance.com/en">Binance</a> account to MetaMask. <a
-                                        target="_blank" href="https://crypto-explained.com/services/send-bnb-coin-to-binance-smart-chain-on-metamask/"> This third party
+                                        target="_blank"
+                                        href="https://crypto-explained.com/services/send-bnb-coin-to-binance-smart-chain-on-metamask/">
+                                        This third party
                                         tutorial explains </a> how to transfer your $BNB to MetaMask.</p>
                                 <li>Almost finished! Visit PancakeSwap</li>
-                                <p>You can currently buy <a href="https://exchange.pancakeswap.finance/#/pool">$BGOAT</a> on PancakeSwap.</p>
+                                <p>You can currently buy <a
+                                        href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xF8Dfc628610aFBdd567C3b6BB2C0F7ac4916942A">$BGOAT</a> on PancakeSwap.
+                                </p>
                                 <li>Swap $BNB for $BGOAT</li>
                                 <p> Enter the amount of $BNB you would like to swap for $BGOAT. Click Connect Wallet
                                     then Swap.
@@ -590,44 +594,6 @@
                             <!--Services Block Three-->
                             <div class="services-block-three">
                                 <div class="inner-box wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                    <h3>Phase 3</h3>
-                                    <ul class="list list-check">
-                                        <li class="fa fa-arrow-right" aria-hidden="true">
-                                            <p>
-                                                BGOAT Swap (Decentralize Exchange)
-                                            </p>
-                                        </li>
-                                        <li class="fa fa-arrow-right" aria-hidden="true">
-                                            <p>
-                                                Initial CEX Listings (Hotbit, Bilaxy, CoinTiger)
-                                            </p>
-                                        </li>
-                                        <li class="fa fa-arrow-right" aria-hidden="true">
-                                            <p>
-                                                15,000 Telegram Members
-                                            </p>
-                                        </li>
-                                        <li class="fa fa-arrow-right" aria-hidden="true">
-                                            <p>
-                                                30,000 Holders
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                        <!--Column-->
-                        <div class="column col-md-4 col-sm-12 col-xs-12 hidden-sm-down">
-                            <div class="image">
-                                <img src="images/resource/image-3.png" alt="" />
-                            </div>
-                        </div>
-                        <!--Column-->
-                        <div class="column pull-right col-md-4 col-sm-12">
-                            <!--Services Block Four-->
-                            <div class="services-block-four">
-                                <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     <h3>Phase 2</h3>
                                     <ul class="list list-check">
 
@@ -657,6 +623,48 @@
                                             </p>
                                         </li>
                                     </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--Column-->
+                        <div class="column col-md-4 col-sm-12 col-xs-12 hidden-sm-down">
+                            <div class="image">
+                                <img src="images/resource/image-3.png" alt="" />
+                            </div>
+                        </div>
+                        <!--Column-->
+                        <div class="column pull-right col-md-4 col-sm-12">
+                            <!--Services Block Four-->
+                            <div class="services-block-four">
+                                <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <h3>Phase 3</h3>
+                                    <ul class="list list-check">
+                                        <li class="fa fa-arrow-right" aria-hidden="true">
+                                            <p>
+                                                BGOAT Swap
+                                            </p>
+                                        </li>
+                                        <li class="fa fa-arrow-right" aria-hidden="true">
+                                            <p>
+                                                Initial CEX Listings (Hotbit, Bilaxy, CoinTiger)
+                                            </p>
+                                        </li>
+                                        <li class="fa fa-arrow-right" aria-hidden="true">
+                                            <p>
+                                                15,000 Telegram Members
+                                            </p>
+                                        </li>
+                                        <li class="fa fa-arrow-right" aria-hidden="true">
+                                            <p>
+                                                30,000 Holders
+                                            </p>
+                                        </li>
+                                    </ul>
+
+
+
+
                                 </div>
                             </div>
                             <!--Services Block Four-->
@@ -789,7 +797,7 @@
             $(document).ready(function () {
                 fetch('https://api.pancakeswap.info/api/v2/tokens/0xF8Dfc628610aFBdd567C3b6BB2C0F7ac4916942A')
                     .then(response => response.json())
-                    .then(responseData => $('#div1').html(responseData.data.price.substr(0, 15) +' BNB/ BGOAT'));
+                    .then(responseData => $('#div1').html(responseData.data.price.substr(0, 15) + ' BNB/ BGOAT'));
             });
         </script>
 </body>
